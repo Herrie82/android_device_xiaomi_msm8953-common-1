@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService \
     com.dsi.ant.antradio_library \
     libantradio
 
@@ -108,8 +107,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
-    libmm-qcamera \
-    Snap
+    libmm-qcamera
 
 # Offline Charger
 PRODUCT_PACKAGES += \
@@ -151,7 +149,6 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
     libfmjni
 
 # Gatekeeper HAL
